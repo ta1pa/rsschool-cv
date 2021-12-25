@@ -9,7 +9,7 @@
 ## About Myself 
 I'm looking forward for new opportunities. Front-end development is something I became passionate about since august 2021 so I apply for every free opportunity to learn. 
 ***
-##Skills
+## Skills
 
 * HTML
 * CSS
@@ -48,7 +48,7 @@ golfScore(5, 4);
 * [Responsive Web Design](https://www.freecodecamp.org/certification/ta1pa/responsive-web-design "Developer Certification at freecodecamp.com")
 * [HTML Academy](https://htmlacademy.ru/ "HTML Academy") 
 ***
-##Work expirience
+## Work expirience
 Nothing yet
 ***
 ## English
