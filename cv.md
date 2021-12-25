@@ -2,9 +2,9 @@
 **Junior Frontend Developer**
 ***
 ## Contacts
-**Phone:** +79161234567
-**E-mail:** vv1nter@yandex.ru
-**Discord:** ta1pa#2237
+* **Phone:** +79161234567
+* **E-mail:** vv1nter@yandex.ru
+* **Discord:** ta1pa#2237
 ***
 ## About Myself 
 I'm looking forward for new opportunities. Front-end development is something I became passionate about since august 2021 so I apply for every free opportunity to learn. 
