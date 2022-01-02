@@ -1,5 +1,257 @@
-* {
-    margin:0;
-    padding:0;
-    outline:none
-    }
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #be3144;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+  z-index: 10;
+}
+
+.navigation__menu {
+  display: flex;
+  margin: 0 20px 0 0;
+}
+
+.navigation__menu__item {
+  list-style: none;
+}
+
+.navigation__menu__item__link {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  display: block;
+}
+
+.navigation__menu__item__link:hover {
+  background: #45567d;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  margin: 0;
+}
+
+.introduction__description {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 200;
+  color: #be3144;
+  margin: 0;
+}
+
+.about_me {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_me__title {
+  margin: 0 auto 60px;
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+  max-width: 640px;
+}
+
+.about_me__description {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 200;
+  color: #be3144;
+  margin: 0;
+  max-width: 1440px;
+}
+
+#skills {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 100px 20px;
+  background: #45567d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.my_skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.my_skills__title {
+  margin: 0 0 49px 0;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.my_skills__list {
+  font-size: 42px;
+  padding: 0;
+  text-align: left;
+  margin: 0;
+}
+
+.code_example {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.code_example__title {
+  margin: 0 0 49px 0;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.code_example__code_description {
+  font-size: 42px;
+}
+
+.code_example a {
+  text-decoration: none;
+  color: white;
+}
+
+.code_example__code {
+  font-size: 15px;
+  background-color: #7a7c8180;
+  padding: 15px;
+}
+
+#education {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background: #303841;
+}
+
+.my_education {
+  display: flex;
+  flex-direction: column;
+}
+
+.my_education__title {
+  margin: 0 0 49px 0;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.my_education__list {
+  font-size: 42px;
+  padding: 0;
+  text-align: left;
+  margin: 0;
+  list-style-type: circle;
+  margin-bottom: 49px;
+}
+
+.my_education__list a {
+  text-decoration: none;
+  color: white;
+}
+
+.my_education__list a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.my_education__english {
+  margin: 0 0 49px 0;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.my_education__english__description {
+  font-size: 42px;
+  margin: 0;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  background: #303841;
+  border-top: 4px solid #be3144;
+  padding: 20px;
+  font-weight: 300;
+}
+
+.contacts__links {
+  margin: 40px 0 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+}
+
+.contacts__links__item {
+  padding: 10px 20px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contacts__links__item:hover {
+  transform: translateY(8px);
+}
+
+.rs_school {
+  margin: 40px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 350px;
+}
+
+.rs_school__image {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.rs_school__year {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 0;
+}

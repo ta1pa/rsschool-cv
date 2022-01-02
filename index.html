@@ -1,13 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,400&family=Raleway:wght@700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
 </head>
+
 <body>
-    
+    <nav class="navigation">
+        <ul class="navigation__menu">
+            <li class="navigation__menu__item">
+                <a href="#about" class="navigation__menu__item__link">About</a>
+            </li>
+            <li class="navigation__menu__item">
+                <a href="#skills" class="navigation__menu__item__link">Skills</a>
+            </li>
+            <li class="navigation__menu__item">
+                <a href="#education" class="navigation__menu__item__link">Education</a>
+            </li>
+            <li class="navigation__menu__item">
+                <a href="#contacts" class="navigation__menu__item__link">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="introduction">
+            <h1 class="introduction__title">Dmitry Sheludyakov</h1>
+            <p class="introduction__description">Junior Frontend Developer</p>
+            <img src="https://i.ibb.co/2WWQyq1/a-53903657.jpg" alt="avatar" class="introduction__avatar" />
+        </div>
+        <div class="about_me">
+            <h2 class="about_me__title">About Myself</h2>
+            <p class="about_me__description">
+                I'm looking forward for new opportunities. Front-end development is
+                something I became passionate about since august 2021 so I apply for
+                every free opportunity to learn.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="my_skills">
+            <h2 class="my_skills__title">Skills</h2>
+            <ul class="my_skills__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Fundamentals)</li>
+                <li>Figma</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="code_example">
+            <h2 class="code_example__title">Code example</h2>
+            <p class="code_example__code_description">
+                Task "Golf Code" at
+                <a href="https://www.freecodecamp.org/">freecodecamp.com</a>
+            </p>
+            <div class="code_example__code">
+                <pre>
+                    <code>                  
+ const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+ function golfScore(par, strokes) {
+     if (strokes == 1) {
+     return "Hole-in-one!";
+   } else if (strokes &#60;= par - 2) {
+     return "Eagle";
+   } else if (strokes == par - 1) {
+     return "Birdie";
+   } else if (strokes == par) {
+     return "Par";
+   } else if (strokes == par + 1) {
+     return "Bogey";
+   } else if (strokes == par + 2) {
+     return "Double Bogey";
+   } else {
+     return "Go Home!";
+   }
+   }
+ 
+ golfScore(5, 4);
+</code>
+</pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="my_education">
+            <h2 class="my_education__title">Education</h2>
+            <ul class="my_education__list">
+                <li>
+                    Specialist degree in Customs, RUSSIAN UNIVERSITY OF TRANSPORT (<a
+                        href="https://www.miit.ru/">MIIT</a>)
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/certification/ta1pa/responsive-web-design">Responsive Web
+                        Design</a>
+                </li>
+                <li><a href="https://htmlacademy.ru">HTML Academy</a></li>
+            </ul>
+            <h2 class="my_education__english">English</h2>
+            <p class="my_education__english__description">
+                Intermediate/Upper-intermediate according to
+                <a href="https://www.efset.org/"><img
+                        src="https://a.storyblok.com/f/71234/103x24/da9ab91cbd/efset-logo_black.svg" alt="EFSET"
+                        width="150" /></a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="page-footer" id="contacts">
+        <div class="contacts__links">
+            <a href="mailto:vv1nter@yandex.ru" class="contacts__links__item">
+                <i class="fas fa-at"></i>
+                Send a mail
+            </a>
+
+            <a href="tel:555-555-5555" class="contacts__links__item">
+                <i class="fas fa-mobile-alt"></i>
+                Call me
+            </a>
+
+            <a href="https://github.com/ta1pa" class="contacts__links__item">
+                <i class="fab fa-github"></i>
+                GitHub
+            </a>
+            <a href="https://discord.com/" class="contacts__links__item">
+                <i class="fab fa-discord"></i>
+                ta1pa#2237
+            </a>
+        </div>
+
+        <div class="rs_school">
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School"
+                    class="rs_school__image" width="120" /></a>
+            <p class="rs_school__year">2022</p>
+        </div>
+    </footer>
 </body>
+
 </html>
